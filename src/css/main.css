@@ -1,0 +1,254 @@
+/* Hero */
+.hero-section{
+    background-image:url("/img/hero/cube-one-mob.png"),
+     url("/img/hero/cube-three-mob.png"),
+     url("/img/hero/cube-two-mob.png"),
+    url("/img/hero/image-mob.png"),
+    url("/img/hero/row-mob.png");   
+    background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat;
+    background-position:top 40px center, bottom 16px left, bottom -110px right, bottom center, top 106px center;
+    background-size:contain, contain, 300px  385px, contain, contain;
+    height: 730px;
+}
+.hero-title{
+    font-family: "Kanit", sans-serif;
+        font-weight: 600;
+        font-size: 20px;
+        text-align: center;
+        color: #fff;
+        margin-top: 250px;
+        margin-bottom: 16px;
+}
+.hero-text{
+    width: 258px;
+    font-size: 14px;
+    margin-left: auto;
+    margin-right: auto;
+}
+@media only screen and (min-width: 1439px) {
+.hero-section {
+background-image: url("/img/hero/cube-desk.png"),
+                url("/img/hero/image-desk.png"),
+                url("/img/hero/row-desk.png");
+background-repeat:no-repeat, no-repeat, no-repeat;
+background-position: top -40px center, bottom 70px center, top center;
+background-size: 100% 820px, 547px 310px, 752px 752px;
+height: 900px;
+} 
+.hero-title{
+    font-size: 36px;
+}
+.hero-text{
+    font-size: 20px;
+    width: 403px;
+}
+}
+/* Game Description */
+.description-title{
+    margin-bottom: 24px;
+    margin-top: 20px;
+}
+@media only screen and (min-width: 1439px) {
+    .description-title{
+        margin-top: -30px;
+    }
+.description-text{
+    width: 720px;
+    margin-left: auto;
+    margin-right: auto;
+}
+}
+/* Gallery */
+.gallery-title{
+    margin-bottom: 24px;
+}
+.gallery-img{
+    width: 100%;
+        height: auto;
+}
+
+.gallery-swiper-wrapper{
+padding-top: 60px;
+padding-bottom: 60px;
+}
+.gallery-swiper-slide{
+    cursor: pointer;
+}
+.gallery-swiper .swiper-slide {
+    width: 40%;
+    transition: transform 0.3s ease, filter 0.3s ease;
+    transform: scale(0.8);
+    filter: brightness(0.6);
+    padding-left: 4px;
+    padding-right: 4px;
+}
+
+.gallery-swiper .swiper-slide-active.is-center {
+    transform: scale(1.9);
+    filter: brightness(1);
+    z-index: 10; 
+}
+@media only screen and (min-width: 1439px) {
+.gallery-swiper-wrapper{
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 24px;
+    align-items: center;    
+     padding-bottom: 0;
+    padding-top:0;
+  }
+.gallery-swiper-slide{
+   max-width:185px;
+   min-height: 205px;
+        padding-left: 0;
+        padding-right: 0;
+}
+.gallery-swiper-slide-center{
+    min-width: 394px;
+    min-height: 444px;
+}
+
+}
+/* How to Play */
+.play-title{
+    margin-bottom: 24px;
+}
+.play-list{
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+.play-item{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.number{
+    border: 1px solid #fff;
+        padding: 8px 14px;
+        width: 40px;
+        height: 40px;
+        font-weight: 700;
+            font-size: 20px;
+}
+.play-wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border: 1px solid #fff;
+        padding: 16px;
+        width: 276px;
+        height: 94px;
+        background: #17161d;
+}
+.goal-name{
+    font-weight: 700;
+}
+@media only screen and (min-width: 1439px) {
+  .play-list{
+    margin-left: auto;
+    margin-right: auto;
+    width: 540px;
+     }
+.play-wrapper{
+    width: 412px;
+        height: auto;
+}
+}
+/* User Reviews */
+.reviews-title{
+    margin-bottom: 24px;
+}
+.reviews-swiper-slide{
+    border: 1px solid #fff;
+        padding: 16px;
+        background: #17161d;
+}
+.author{
+    margin-top: 8px;
+    font-weight: 700;
+        font-size: 16px;
+        margin-bottom: 8px;
+}
+.reviews-container{
+    position: relative;
+}
+.custom-navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    opacity: 1;
+    pointer-events: auto;
+    position: absolute;
+    bottom: 10px;
+    left: 43%;
+    transform: translateX(-55%);
+    width: 6%;
+    z-index: 10;
+
+}
+.custom-prev,
+.custom-next {
+    background: inherit;
+    border: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.custom-next {
+    transform: rotate(180deg);
+}
+.reviews-swiper-wrapper{
+padding-top: 70px;
+padding-bottom: 50px;
+}
+.reviews-swiper-slide{
+    cursor: pointer;
+    min-height: 270px;
+}
+.reviews-swiper .swiper-slide {
+    width: 44%;
+    transition: transform 0.3s ease, filter 0.3s ease;
+    transform: scale(0.6);
+    filter: brightness(0.6);
+}
+
+.reviews-swiper .swiper-slide-active.is-center {
+    transform: scale(1.2);
+    filter: brightness(1);
+    z-index: 10;
+}
+@media only screen and (min-width: 1439px) {
+    .reviews-swiper-wrapper{
+        display: flex;
+        gap: 24px;
+        align-items: center;
+    }
+    .reviews-swiper-slide-three{
+        order: 2;
+    }
+
+    .reviews-swiper-slide-five{
+        order: 2;
+    }
+ .reviews-swiper-slide-one{
+    order: 1;
+ }
+ .reviews-swiper-slide-two{
+    order: 5;
+ }
+ .reviews-swiper-slide{
+    min-width: 210px;
+        min-height: 310px;
+ }  
+  .reviews-swiper-slide-four{
+        order: 2;
+        min-width: 230px;
+            min-height: 350px;
+    }
+    .reviews-swiper-wrapper{
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+}
