@@ -20,33 +20,75 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
-      href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
       rel="stylesheet">
-      <link href="https://fonts.cdnfonts.com/css/arial-2" rel="stylesheet">
-    <script type="module" crossorigin src="/groovy-galaxy/index.js"></script>
-    <link rel="modulepreload" crossorigin href="/groovy-galaxy/assets/vendor-Sm41FR0M.js">
+    <script type="module" crossorigin src="/groovy-galaxy/assets/vendor-Sm41FR0M.js"></script>
+    <script type="module" crossorigin src="/groovy-galaxy/assets/main-DNi_1zg-.js"></script>
     <link rel="stylesheet" crossorigin href="/groovy-galaxy/assets/vendor-BMD19QWe.css">
-    <link rel="stylesheet" crossorigin href="/groovy-galaxy/assets/styles-4GTfCrbB.css">
+    <link rel="stylesheet" crossorigin href="/groovy-galaxy/assets/index-DPQNaNT_.css">
   </head>
-  <body>
-    <header class="header">
-  <div class="container">
+  <body class="background">
+    
+<header class="header" id="site-header">
+  <div class="header-container container">
+    <img class="header-img" src="/groovy-galaxy/assets/dynamic-island@2x-C1OeOS1y.png" alt="Dynamic Island" loading="lazy" />
+    <button type="button" class="menu-button" aria-label="menu toggle">
+      <span class="icon">
+        <svg class="header-svg" width="50" height="50">
+          <use href="/groovy-galaxy/assets/sprite-B8SFb6d0.svg#icon-burger"></use>
+        </svg>
+      </span>
+    </button>
 
+    <nav class="nav ">
+      <ul class="navigation-list">
+        <li class="navigation-item">
+          <a class="links" href="index.html#Home">Home</a>
+        </li>
+        <li class="navigation-item">
+          <a class="links" href="index.html#Game">Game Description</a>
+        </li>
+        <li class="navigation-item">
+          <a class="links" href="index.html#Gallery">Gallery</a>
+        </li>
+        <li class="navigation-item">
+          <a class="links" href="index.html#Play">How to Play</a>
+        </li>
+        <li class="navigation-item">
+          <a class="links" href="index.html# Reviews">User Reviews</a>
+        </li>
+        <li class="navigation-item">
+          <a class="links" href="index.html#FAQ">FAQ</a>
+        </li>
+     </ul>
+    </nav>
   </div>
 </header>
-
+<!-- Mobile menu -->
+<div id="modalWindow" class="modal">
+  <ul class="menu-list">
+    <li><a class="menu-list-item" href="index.html#Home">Home</a></li>
+    <li><a class="menu-list-item" href="index.html#Game">Game Description</a></li>
+    <li>
+      <a class="menu-list-item" href="index.html#Gallery">Gallery</a>
+    </li>
+    <li><a class="menu-list-item" href="index.html#Play">How to Play</a></li>
+    <li><a class="menu-list-item" href="index.html# Reviews">User Reviews</a></li>
+    <li><a class="menu-list-item" href="index.html#FAQ">FAQ</a></li>
+  </ul>
+</div>
 
     <main>
       <!-- Loads the specified .html file -->
       <!-- Hero -->
- <section class="hero-section">
+ <section class="hero-section" id="Home">
     <div class="container">
         <h1 class="hero-title">Tap the Stars, Feel the Beat!</h1>
         <p class="hero-text">Blast through the galaxy on a rhythm-fueled journey in Groovy Galaxy — the ultimate beat music game!</p>
     </div>
  </section>
  <!-- Game Description -->
-  <article class="description-section">
+  <article class="description-section" id="Game">
     <div class="container">
         <h2 class="description-title">Game Description</h2>
         <p class="description-text">Groovy Galaxy is a rhythm game where your fingers follow the beat across space! Sync with electrifying music and show
@@ -54,7 +96,7 @@
     </div>
   </article>
   <!-- Gallery -->
-   <section class="gallery-section">
+   <section class="gallery-section" id="Gallery">
     <div class="container">
         <h2 class="gallery-title">Gallery</h2>
         <div class="swiper gallery-swiper">
@@ -97,7 +139,7 @@
     </div>
    </section>
    <!-- How to Play -->
-<section class="play-section">
+<section class="play-section" id="Play">
     <div class="container">
         <h2 class="play-title">How to Play</h2>
         <ul class="play-list">
@@ -141,7 +183,7 @@
     </div>
 </section>
 <!-- User Reviews -->
- <section class="reviews-section">
+ <section class="reviews-section" id=" Reviews">
     <div class="container reviews-container">
         <h2 class="reviews-title">User Reviews</h2>
         <div class="swiper reviews-swiper">
@@ -193,7 +235,7 @@
     </div>
  </section>
  <!-- FAQ -->
-  <section class="faq-section">
+  <section class="faq-section" id="FAQ">
     <div class="cintainer">
         <h2 class="faq-title">FAQ</h2>
         <ul class="faq-acc">
@@ -302,9 +344,20 @@
         <a class="footer-underline" href="Cookies Policy.html">Cookies Policy</a>
       </li>
     </ul>
-    <p class="footer-text">© 2025 beatrizcribeiro.com – All rights reserved</p>
+    <p class="footer-text">© 2025 beatrizcribeiro.com - All rights reserved</p>
   </div>
 </footer>
+    <div id="cookie-popup" class="cookie-popup">
+    <div class="popup-wrapper">
+        <h2 class="popup-title">Cookies Policy</h2>
+        <p class="cookie-class">We use cookies to improve your experience on our website. By browsing this website, you
+            agree to our use of cookies</p>
+        <div class="cookie-buttons">
+            <button id="accept-cookies" class="btn-accept">ACCEPT COOKIES</button>
+            <button id="decline-cookies" class="btn-decline">DECLINE COOKIES</button>
+        </div>
+    </div>
+</div>
 
   </body>
 </html>
