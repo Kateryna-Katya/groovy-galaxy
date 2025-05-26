@@ -1,5 +1,49 @@
-<header class="header">
-  <div class="container">
 
+<header class="header" id="site-header">
+  <div class="header-container container">
+    <img class="header-img" src="/img/dynamic-island@2x.png" alt="Dynamic Island" loading="lazy" />
+    <button type="button" class="menu-button" aria-label="menu toggle">
+      <span class="icon">
+        <svg class="header-svg" width="50" height="50">
+          <use href="/img/sprite.svg#icon-burger"></use>
+        </svg>
+      </span>
+    </button>
+
+    <nav class="nav ">
+      <ul class="navigation-list">
+        <li class="navigation-item">
+          <a class="links" href="index.html#Home">Home</a>
+        </li>
+        <li class="navigation-item">
+          <a class="links" href="index.html#Game">Game Description</a>
+        </li>
+        <li class="navigation-item">
+          <a class="links" href="index.html#Gallery">Gallery</a>
+        </li>
+        <li class="navigation-item">
+          <a class="links" href="index.html#Play">How to Play</a>
+        </li>
+        <li class="navigation-item">
+          <a class="links" href="index.html# Reviews">User Reviews</a>
+        </li>
+        <li class="navigation-item">
+          <a class="links" href="index.html#FAQ">FAQ</a>
+        </li>
+     </ul>
+    </nav>
   </div>
 </header>
+<!-- Mobile menu -->
+<div id="modalWindow" class="modal">
+  <ul class="menu-list">
+    <li><a class="menu-list-item" href="index.html#Home">Home</a></li>
+    <li><a class="menu-list-item" href="index.html#Game">Game Description</a></li>
+    <li>
+      <a class="menu-list-item" href="index.html#Gallery">Gallery</a>
+    </li>
+    <li><a class="menu-list-item" href="index.html#Play">How to Play</a></li>
+    <li><a class="menu-list-item" href="index.html# Reviews">User Reviews</a></li>
+    <li><a class="menu-list-item" href="index.html#FAQ">FAQ</a></li>
+  </ul>
+</div>

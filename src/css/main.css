@@ -6,9 +6,9 @@
     url("/img/hero/image-mob.png"),
     url("/img/hero/row-mob.png");   
     background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat;
-    background-position:top 40px center, bottom 16px left, bottom -110px right, bottom center, top 106px center;
+    background-position:top 80px center, bottom 16px left, bottom -110px right, bottom center, top 156px center;
     background-size:contain, contain, 300px  385px, contain, contain;
-    height: 730px;
+    height: 780px;
 }
 .hero-title{
     font-family: "Kanit", sans-serif;
@@ -16,7 +16,7 @@
         font-size: 20px;
         text-align: center;
         color: #fff;
-        margin-top: 250px;
+        margin-top: 300px;
         margin-bottom: 16px;
 }
 .hero-text{
@@ -31,16 +31,18 @@ background-image: url("/img/hero/cube-desk.png"),
                 url("/img/hero/image-desk.png"),
                 url("/img/hero/row-desk.png");
 background-repeat:no-repeat, no-repeat, no-repeat;
-background-position: top -40px center, bottom 70px center, top center;
+background-position: top 50px center, bottom 30px center, top 110px center;
 background-size: 100% 820px, 547px 310px, 752px 752px;
-height: 900px;
+height: 930px;
 } 
 .hero-title{
     font-size: 36px;
+    margin-top: 360px;
 }
 .hero-text{
     font-size: 20px;
     width: 403px;
+  
 }
 }
 /* Game Description */
@@ -50,7 +52,7 @@ height: 900px;
 }
 @media only screen and (min-width: 1439px) {
     .description-title{
-        margin-top: -30px;
+        margin-top: 60px;
     }
 .description-text{
     width: 720px;
