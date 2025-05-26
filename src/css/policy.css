@@ -1,0 +1,88 @@
+@import url('./reset.css');
+@import url('./base.css');
+@import url('./container.css');
+@import url('./footer.css');
+@import url('./header.css');
+
+.background-policy {
+    background-color: #121118;
+    background-image: url("/img/pages/mob.png");
+    background-repeat: no-repeat;
+    background-position: top center;
+    background-size:cover;
+    text-align: left;
+    font-family: "Arial", sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        color: #fff;
+}
+
+.privacy-title {
+    font-family: "Kanit", sans-serif;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 1.5;
+        color: #fff;
+        margin-top: 100px;
+        margin-bottom: 36px;
+}
+
+.text-span {
+    font-weight: 600;
+}
+
+.text-container {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.policy-subtitle {
+    font-family: "Arial", sans-serif;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 1.5;
+        color: #fff;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+.policy-list {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.underline {
+    text-decoration: underline;
+    text-decoration-skip-ink: none;
+}
+
+.text {
+    margin-top: 20px;
+}
+
+.mail-link {
+    text-decoration: underline;
+        text-decoration-skip-ink: none;
+}
+
+@media only screen and (min-width: 1439px) {
+
+    .background-policy {
+            background-image: url("/img/pages/desk.png");
+            font-size: 24px;
+ }
+    .policy-container {
+        padding-left: 108px;
+        padding-right: 108px;
+    }
+        .privacy-title {
+            font-size: 36px;
+            margin-bottom: 48px;  
+}
+.policy-subtitle {
+    font-size: 24px;
+}
+
+}
