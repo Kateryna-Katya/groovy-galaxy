@@ -1,0 +1,28 @@
+.footer{
+    background: #3a393f;
+}
+.footer-container{
+    padding: 25px;
+}
+.footer-navigation{
+    display: flex;
+    flex-direction: column;
+    gap: 19px;
+    align-items: center;
+    text-decoration: underline;
+        text-decoration-skip-ink: none;
+        margin-bottom: 24px;
+}
+.footer-text{
+    font-weight: 700;
+    font-size: 14px;
+}
+@media only screen and (min-width: 1439px) {
+.footer-navigation {
+ flex-direction: row;
+justify-content: center;
+}    
+ .footer-text {
+    font-size: 20px; 
+  }   
+}
